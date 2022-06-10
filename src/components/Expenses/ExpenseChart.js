@@ -25,7 +25,7 @@ const ExpenseChart = props => {
     }
 
     return(
-        <Chart dps={DPS} maxVal={maxVal}></Chart>
+        <Chart dps={DPS} sum={sum}></Chart>
     )
 
 }

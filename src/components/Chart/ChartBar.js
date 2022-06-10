@@ -5,8 +5,8 @@ const ChartBar = props => {
 
     let barFillHeight = '0%';
 
-    if(props.maxValue > 0){
-        barFillHeight = Math.round((props.value / props.maxValue) * 100) + '%';
+    if(props.sum > 0){
+        barFillHeight = Math.round((props.value / props.sum) * 100) + '%';
     }
 
     return (

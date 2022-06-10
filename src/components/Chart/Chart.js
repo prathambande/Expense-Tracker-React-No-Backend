@@ -8,7 +8,7 @@ function Chart (props) {
         <ChartBar 
         key={dp.label} 
         value={dp.value} 
-        maxValue={props.maxVal}  
+        sum={props.sum}  
         label={dp.label}/> )
         }
     </div>
